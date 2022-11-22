@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{%block contents %}
+<body class="body3">
+
+  <p class="p1">Quem somos </p>
+      <p class="p2">Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Consequatur minima tempora consectetur 
+        facere aliquid libero cumque culpa delectus perspiciatis voluptatibus 
+        consequuntur inventore non architecto quaerat mollitia, ducimus porro 
+        maxime iusto.</p>
+    <div style="height: 5px; background-color: #d4d4d4"></div>
+    <br>
+  <div class="div-2">
+  <form action="/action_page.php">
+        <label>Seu email:</label><br>
+        <input type="text"><br>
+        <label>Assunto</label><br>
+        <input type="text"><br>
+        <label> Descrição </label><br>
+        <textarea rows = "5" cols = "60" name = "description"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+  </div>
+  </form>
+
+
+    <div class="clear"></div>
+{% endblock %}
